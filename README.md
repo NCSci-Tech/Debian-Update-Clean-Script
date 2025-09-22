@@ -20,6 +20,8 @@ Runs autoclean to remove obsolete package files.
 
 Runs autoremove to delete unnecessary dependencies.
 
+Uncomment sudo apt dist-upgrade and sudo apt full-upgrade for extensive upgrade and distro upgrade
+
 Usage
 
 Prerequisites
