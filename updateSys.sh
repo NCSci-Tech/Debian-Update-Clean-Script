@@ -33,3 +33,7 @@ echo "Autoremoving unused dependencies..."
 sudo apt-get autoremove -y
 
 echo "System update and maintenance complete!"
+
+# Uncomment below if necessary
+# sudo apt dist-upgrade
+# sudo apt full-upgrade
