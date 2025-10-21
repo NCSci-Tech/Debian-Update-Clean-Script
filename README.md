@@ -2,7 +2,7 @@ System Update and Maintenance Script
 
 Description
 
-This Bash script automates the process of updating and maintaining a Linux system. It updates package lists, upgrades installed packages, refreshes Snap packages, updates system databases, cleans up old logs, and removes obsolete or unused packages.
+This Zsh/Bash script automates the process of updating and maintaining a Linux system. It updates package lists, upgrades installed packages, refreshes Snap packages, updates system databases, cleans up old logs, and removes obsolete or unused packages.
 
 Features
 
