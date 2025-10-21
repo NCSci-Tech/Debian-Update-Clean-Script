@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/zsh
 
 # Update package lists for apt
 echo "Updating apt package lists..."
@@ -26,14 +26,15 @@ sudo journalctl --vacuum-time=3d
 
 # Perform autoclean to remove obsolete packages
 echo "Autocleaning obsolete packages..."
-sudo apt-get autoclean
+sudo apt autoclean
 
 # Perform autoremove to remove unused dependencies
 echo "Autoremoving unused dependencies..."
-sudo apt-get autoremove -y
+sudo apt autoremove -y
 
 echo "System update and maintenance complete!"
 
 # Uncomment below if necessary
 # sudo apt dist-upgrade
 # sudo apt full-upgrade
+# sudo apt clean
